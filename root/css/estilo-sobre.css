@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+}
+section.title h1{
+	margin: 20px 0;
+	padding: 5px;
+	background-image: url(../img/sobre-background.jpg);
+		
+}
+section.title h2{
+	margin: 20px 0;
+	padding: 5px;
+	border-style: double;
+	border-bottom-width: 2px;
+}
+section p{
+	text-align: justify;
+	text-indent: 50px;
+	margin: 15px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13pt;
+}
+
+div.limite{
+	width: 800px;
+	margin: 0 auto;
+}
+figure#centroimg{
+	background-color: #F2EDED;
+
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+
+	
+	padding: 10px 10px 12px;
+	margin: 30px auto;
+
+	width: 550px;
+}
+figure#familia{
+	background-color: #F2EDED;
+
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px;
+
+	float: right;
+
+	margin-left: 20px;
+	padding: 10px;
+	width: 300px;
+	
+}
+figcaption{
+	padding-top: 10px;
+	font-style: italic;
+	text-align: center;
+}
+div.lista{
+	margin-bottom: 15px;
+}
+div.lista ul{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+strong{
+	font-weight: bold;
+}

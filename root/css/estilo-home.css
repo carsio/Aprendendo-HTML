@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+form{
+
+	padding-top: 3px;
+	padding-left: 10px;	
+	background-color: #dcdcdc;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	border-style: double;
+	border-bottom-width: 2px;
+	border-color: grey;
+}
+form input{
+	vertical-align: middle;
+}
+form input[type=search]{
+	padding-left: 10px; 
+	width: 140px;
+}
+div#menu,
+nav#menu-departamentos{
+	float: left;
+}
+form p#departamentos{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
+	text-transform: uppercase;
+	font-weight: bold;	
+
+	padding: 10px 0px;
+}
+form p#busca{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 9pt;
+	text-transform: uppercase;
+	font-weight: bold;	
+
+	padding: 10px 0px;
+}
+nav#menu-departamentos{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
+	text-transform: uppercase;
+	font-weight: bold;	
+	clear: left;
+}
+nav#menu-departamentos ul li{
+	border-style: double;
+	border-bottom-width: 2px;
+	border-color: grey;
+
+	padding: 10px;
+}
+
+div#destaques-flow{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+div#destaques-flow figure img{	
+	width: inherit;
+
+}
+
+div#menu{
+	width: 185px;
+	height: 342px;
+}
+img{
+	height: inherit;
+	width: inherit;
+}
+section.main{
+	height: 480px;
+}

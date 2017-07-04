@@ -1,0 +1,25 @@
+footer{
+	background-image: url(../img/fundo-rodape.png);
+	clear: both;
+	height: 100px;
+
+	width: 1345px;
+	margin: 0px auto;
+
+}
+figure.rodape img{
+	position: absolute;
+	left:0px;
+	top: 26px;
+	vertical-align: top;
+}
+div.container ul{
+	position: absolute;
+	top: 34px;
+	right: 0px
+}
+div.container ul li{
+	display: inline;
+	margin-left: 20px
+
+}

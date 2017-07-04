@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container{
+	margin: 5px	auto 0px;
+	width: 940px; 
+	position: relative;
+	
+}
+header.container{
+	padding: 5px; 
+}
+
+p.sacola{
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	background: url(../img/sacola.png) top right no-repeat	;
+	position:absolute;
+	top: 0px;
+	right: 5px;
+	width: 140px;
+
+	text-align: right;
+	padding-right: 35px;
+	padding-top: 8px;
+}
+nav.menu-opcoes{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+nav.menu-opcoes ul li{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13pt; 
+	display: inline-block;
+	margin-left: 15px;
+}	
+nav.menu-opcoes ul li a:link{
+	color: black;
+	text-decoration: none;
+	padding: 3px;
+	transition: background-color 1s;
+}
+
+nav.menu-opcoes ul li a:hover{
+	color: white;
+	background-color: black;
+}
+nav.menu-opcoes ul li a:visited{
+	display: none;	
+}
