@@ -115,3 +115,6 @@ section.novidades{
 section.maisVendidos{
 	background-color: #dcdcf5;
 }
+section.painel ol li figure figcaption{
+	font-family: "Montserrat";
+}
