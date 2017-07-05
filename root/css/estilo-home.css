@@ -74,3 +74,44 @@ img{
 section.main{
 	height: 480px;
 }
+section.painel{
+	margin: 10px 0;
+	padding: 10px;
+	width: 445px;
+}
+
+section.novidades{
+	float: left;
+}
+section.maisVendidos{
+	float:right;
+}
+section.painel li{
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+
+	margin: 2px;
+	padding-bottom: 10px;
+}
+section.painel h2{
+	font-family: "Montserrat";
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-bottom: 10px;
+}
+
+section.painel a{
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+section.novidades{
+	background-color: #F5DCDC;
+}
+section.maisVendidos{
+	background-color: #dcdcf5;
+}
